@@ -1,0 +1,292 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/ptsans-700.woff2) format("woff2");
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #F2F2F2;
+    margin: 0;
+    min-width: 1200px;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.nav-link {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Вероятно, это пока не нужно
+.active-item {
+    text-decoration: underline;
+    text-decoration-color: #756257;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 20px;
+} */
+
+
+/* Задала тут временный фон, чтобы видно было текст. Нужно ли это? */
+.hero {
+    width: 100%;
+    background-color: #0b2a3f;
+}
+
+
+
+.advantages {
+    text-align: center;
+}
+
+.advantages h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.darkblue-bg {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+}
+
+.blue-bg {
+    background: rgba(131, 179, 211, 0.2);
+}
+
+.lightblue-bg {
+    background: rgba(131, 179, 211, 0.12);
+}
+
+
+
+.recommendations h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
+
+.recommendations-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.recommendations-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+.search h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
+.mailing-list h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.mailig-list-main {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    background-image: url(../images/mailing-list-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.footer-social-list {
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}
+
+
+.button {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mailing-list-button {
+    background-color: #82B3D3;
+}
+
+.button-small {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button-blue-small {
+    background-color: #82B3D3;
+}
+
+.button-green-small {
+    background-color: #7DB54F;
+}
+
+.button-no-frame {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+}
+
+.button-card-rating {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Стили для каталога */
+.catalog-search {
+    color:#FFFFFF;
+    background-color: #000000;
+    background-image: url("../images/catalog-search-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+}
+
+.breadcrumbs-item {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.hotel-filter-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.control {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.catalog h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.select-control {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hotel-card-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hotel-card-link {
+    text-decoration: none;
+}
+
+/* Стили для price и type, вероятно, далее объединятся в один див */
+.hotel-card-type {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hotel-card-price {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.pagination-link {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pagination-current {
+    color:#000000;
+    background-color: #F2F2F2;
+}
+
+.pagination-link-no-frame {
+    color:#000000;
+    background-color: transparent;
+}
