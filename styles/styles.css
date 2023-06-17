@@ -40,7 +40,6 @@ body{
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -52,6 +51,11 @@ body{
     text-underline-offset: 20px;
 } */
 
+/* .promo-img {
+    position: absolute;
+    left: 112px;
+    top: 305px;
+} */
 
 /* Задала тут временный фон, чтобы видно было текст. Нужно ли это? */
 .hero {
@@ -60,19 +64,9 @@ body{
 }
 
 
-
 .advantages {
     text-align: center;
 }
-
-.advantages h2 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-}
-
-
 
 .advantages-title {
     font-weight: 700;
@@ -101,14 +95,12 @@ body{
 
 
 
-.recommendations h2 {
+.title {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
-
-
 
 .recommendations-title {
     font-weight: 700;
@@ -122,22 +114,6 @@ body{
     line-height: 21px;
 }
 
-
-
-.search h2 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-}
-
-
-.mailing-list h2 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-}
 
 .mailig-list-main {
     color: #FFFFFF;
@@ -154,6 +130,14 @@ body{
     font-size: 40px;
     line-height: 40px;
     color: #000000;
+}
+
+.contacts-phone {
+    color: #000000;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
 }
 
 
@@ -198,7 +182,7 @@ body{
     line-height: 20px;
     font-weight: 400;
     text-align: center;
-    color: #ffffff;
+    color: #333333;
     background-color: #F2F2F2;
     text-decoration: none;
     text-transform: uppercase;
@@ -234,13 +218,6 @@ body{
 .control {
     font-size: 18px;
     line-height: 23px;
-}
-
-.catalog h2 {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .select-control {
