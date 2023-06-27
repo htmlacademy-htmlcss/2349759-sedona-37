@@ -44,6 +44,11 @@ body{
     flex-grow: 1;
 }
 
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+
 .nav {
     display: flex;
     width: 1090px;
@@ -86,11 +91,14 @@ body{
 
 .hero {
     width: 100%;
+    height: auto;
     background-color: #0b2a3f;
     background-image: url(../images/hero-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
+    padding-top: 51px;
+    padding-bottom: 82px;
 }
 
 .title {
@@ -174,11 +182,11 @@ body{
 
 .search {
     margin: 0;
-    padding: 0;
     min-height: 406px;
     display: flex;
     flex-direction: column;
-    padding-top: 96px;
+    padding: 96px 0;
+    box-sizing: border-box;
 }
 
 .search .title {
@@ -191,11 +199,11 @@ body{
 
 .mailing-list {
     margin: 0;
-    padding: 0;
     min-height: 415px;
     display: flex;
     flex-direction: column;
-    padding-top: 96px;
+    padding: 96px 0;
+    box-sizing: border-box;
 }
 
 .mailing-list .title {
@@ -256,10 +264,11 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     max-width: 400px;
-    padding: 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 8px 20px;
     margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .mailing-list-button {
@@ -332,6 +341,7 @@ body{
     font-weight: 700;
     max-width: 600px;
     padding-bottom: 8px;
+    text-align: left;
 }
 
 .breadcrumbs {
@@ -435,9 +445,10 @@ body{
 
 .hotel-card-item {
     width: 340px;
-    /* border: 1px solid #E6E6E6; */
+    border: 1px solid #E6E6E6;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .hotel-card-title {
