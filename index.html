@@ -161,6 +161,70 @@
           </svg>
         </a>
       </footer>
+      <div class="modal-container modal-container-close">
+        <div class="modal-wrapper">
+          <button class="modal-close" type="button">
+            <span class="visually-hidden">Закрыть.</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="none">
+              <path fill="#000" d="M14.4 1.3 13.1 0 7.4 5.7 1.68 0 .39 1.3 6.1 7 .4 12.7 1.68 14l5.7-5.7L13.1 14l1.3-1.3L8.68 7l5.7-5.7Z"/>
+            </svg>
+          </button>
+          <section class="modal-content">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+              <div class="field-group">
+                <label class="search-options" for="arrival-date">Дата заезда:</label>
+                <input class="field field-date" type="text" id="arrival-date" name="arrival-date" placeholder="Укажите дату" value="27 апреля 2020">
+                <span class="error-text">Мы не можем отправить вас в прошлое.</span>
+              </div>
+              <div class="field-group">
+                <label class="search-options" for="departure-date">Дата выезда:</label>
+                <input class="field field-date" type="text" id="departure-date" name="departure-date" placeholder="Укажите дату" value="1 сентября 2023">
+                <span class="ordinary-text">На эти даты есть свободные номера. Пока есть.</span>
+              </div>
+              <div class="modal-field-group">
+                <div class="field-group field-group-adult">
+                  <label class="search-options" for="adult-quantity">Взрослые:</label>
+                  <button class="minus-button quantity-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" fill="#756157" fill-opacity="0.3"/>
+                    </svg>
+                  </button>
+                  <input class="field field-people" type="number" id="adult-quantity" name="adult-quantity" min="1" max="30" value="2">
+                  <button class="plus-button quantity-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="#756157" fill-opacity="0.3"/>
+                    </svg>
+                  </button>
+                </div>
+                <p class="field-group field-group-child">
+                  <label class="search-options" for="child-quantity">Дети:</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-toggle-text">
+                      <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="3" height="12" fill="none">
+                        <path fill="#000" fill-rule="evenodd" d="M.4 0h2v2h-2V0Zm2 12h-2V3h2v9Z" clip-rule="evenodd"/>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip" id="tooltip-toggle-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                  <button class="minus-button quantity-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" fill="#756157" fill-opacity="0.3"/>
+                    </svg>
+                  </button>
+                  <input class="field field-people" type="number" id="child-quantity" name="child-quantity" min="1" max="30" value="2">
+                  <button class="plus-button quantity-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="#756157" fill-opacity="0.3"/>
+                    </svg>
+                  </button>
+                </p>
+              </div>
+              <button class="modal-button" type="submit">Найти</button>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 </html>
