@@ -739,13 +739,13 @@ body{
     background-color: #ffffff4d;
   }
 
-  .range-bar {
+.range-bar {
     position: absolute;
     height: 4px;
     background-color: #ffffff;
-  }
+}
 
-  .range-toggle {
+.range-toggle {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -753,17 +753,17 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  .toggle-min {
+.toggle-min {
     top: -8px;
     left: 0;
-  }
+}
 
-  .toggle-max {
+.toggle-max {
     top: -8px;
     right: 0;
-  }
+}
 
 .filter-batton-wrap {
     max-width: 200px;
@@ -976,6 +976,7 @@ body{
     height: 100%;
     background-color: #f2f2f2cc;
     z-index: 2;
+    text-align: left;
 }
 
 .modal-wrapper {
@@ -1088,6 +1089,9 @@ body{
     line-height: 20px;
     max-height: 48px;
 }
+.field-people::-webkit-outer-spin-button, .field-people::-webkit-inner-spin-button {
+    appearance: none;
+}
 
 .field-group-adult .search-options,
 .field-group-child .search-options {
@@ -1101,7 +1105,7 @@ body{
 }
 
 .field-group-child .search-options {
-    margin-right: 82px;
+    margin-right: 10px;
 }
 
 .quantity-button {
@@ -1126,11 +1130,12 @@ body{
 }
 
 .tooltip {
-    position: absolute;
-    margin-left: 59px;
+    position: relative;
+    margin-right: 46px;
     margin-top: 1px;
     width: 26px;
     height: 26px;
+    display: block;
 }
 
 .tooltip-toggle {
@@ -1338,12 +1343,12 @@ body{
     opacity: 0.3;
 }
 
-.range-toggle:focus-visible {
-    outline: 3px solid #83b3d3;
+.range-toggle:hover {
+   background-color: #c4e5fa;
 }
 
 .range-toggle:active {
-    outline: 2px solid #83b3d3;
+    outline: 3px solid #3F5E72;
 }
 
 .control:hover {
