@@ -114,7 +114,7 @@ body{
     content: "";
     position: absolute;
     background-color: #756157;
-    width: 80%;
+    width: calc(100% - 32px);
     height: 2px;
     left: 50%;
     transform: translateX(-50%);
