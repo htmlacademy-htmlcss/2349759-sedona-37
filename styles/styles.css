@@ -77,7 +77,7 @@ body{
 .logo {
     display: block;
     width: 140px;
-    margin-right: 30px;
+    margin-right: 28px;
     margin-bottom: -6px;
     z-index:1;
 }
@@ -198,7 +198,7 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 51px;
-    padding-bottom: 78px;
+    padding-bottom: 77px;
 }
 
 .title {
