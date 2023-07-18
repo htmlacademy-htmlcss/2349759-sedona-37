@@ -440,7 +440,7 @@ body{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 96px 0;
+    padding: 98px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
@@ -1307,7 +1307,9 @@ body{
     width: 31px;
     border-radius: 0;
     line-height: 20px;
-    max-height: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
 }
 .field-people::-webkit-outer-spin-button, .field-people::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -1618,6 +1620,14 @@ body{
 
 .view-switch:hover, .view-switch:active {
     border: 2px solid #000000;
+}
+
+.hotel-card-link:hover {
+    opacity: 0.6;
+}
+
+.hotel-card-link:active {
+    opacity: 0.3;
 }
 
 .pagination-link:not(.pagination-current):hover {
