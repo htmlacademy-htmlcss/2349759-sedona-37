@@ -1001,7 +1001,7 @@ body{
     border-radius: 4px;
     border: 2px solid #E5E5E5;
     background-color: transparent;
-    cursor: pointer;
+    display: block;
 }
 
 .view-switch-active {
@@ -1550,6 +1550,7 @@ body{
 
 .button-no-frame:hover {
     opacity: 0.6;
+    background-color: transparent;
 }
 
 .button-no-frame:active {
